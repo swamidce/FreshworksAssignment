@@ -20,6 +20,7 @@ if args.datastore:
     db_path = args.datastore
 else:
     db_path = configurations.DEFAULT_DB_PATH
+    
 
 # Create a datastore directory.
 directory_created = FilePreprocess(db_path).create_folder()
